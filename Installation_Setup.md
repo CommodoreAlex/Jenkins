@@ -158,17 +158,68 @@ Copy and paste this password into the web interface to proceed.
 
 ## Step 4: Post-Installation Configuration 🔧
 
-1. **Configure System Settings**:  
-    Navigate to **Manage Jenkins > Configure System** and set up global settings like environment variables.
-    
-2. **Secure Your Instance**:
-    
-    - Enable HTTPS (optional but recommended).
-    - Set up role-based access control under **Manage Jenkins > Configure Global Security**.
+![6](https://github.com/user-attachments/assets/40df2070-94e6-4c77-b6e8-9d702170616a)
 
-1. **Verify Plugins**:  
-    Go to **Manage Jenkins > Plugin Manager** and ensure critical plugins are installed and up-to-date.
-    
+
+## 1. Configure System Settings
+- **Navigate to "Manage Jenkins"**:
+  1. Go to the Jenkins dashboard.
+  2. Click on **Manage Jenkins** from the sidebar.
+  3. Select **Configure System** from the options.
+
+Should be located at:
+```bash
+http://localhost:8080/manage/configure
+```
+
+- **Here you are able to set up global settings if desired**:
+  - **Environment Variables**: Add any required global environment variables for your build processes.
+  - **JDK**: Ensure the Java Development Kit (JDK) is correctly configured. For example, use Java 17 if compatible.
+  - **Git**: Configure the Git installation path if not automatically detected.
+  - **SMTP Settings**: Set up your SMTP server for email notifications.
+  - **Tool Locations**: Specify locations for tools like Maven, Gradle, and others.
+
+---
+
+## 2. Secure Your Instance
+- **Enable HTTPS** (optional but recommended):
+  1. Use a reverse proxy (e.g., Nginx or Apache) or configure Jenkins directly to enable HTTPS.
+  2. If using Jenkins directly, update the service configuration to specify the SSL certificate and private key paths.
+  3. HTTPS ensures secure communication between your Jenkins instance and users.
+ 
+- **Source to configure HTTPS directly in your local Jenkins instance**:
+https://dev.to/jeansen/set-up-jenkins-with-https-250k
+
+- **Enable Security Settings**:
+  - Use Matrix-based security if RBAC isn't available (this is a plugin to install later).
+  - Restrict anonymous access to the Jenkins instance.
+  - Use a strong administrator password and disable sign-ups unless necessary.
+
+---
+
+## 3. Verify Plugins
+- **Check Installed Plugins**:
+  1. Navigate to **Manage Jenkins** > **Plugin Manager**.
+  2. Go to the **Installed** tab to confirm that key plugins are available:
+     - **Git Plugin** (for Git repository integration)
+     - **Pipeline Plugin** (to create CI/CD pipelines)
+     - **Role-Based Authorization Strategy Plugin** (for RBAC)
+     - **Credentials Plugin** (for securely storing secrets)
+
+- **Install or Update Plugins**:
+  1. In **Plugin Manager**, go to the **Available** tab to search for new plugins.
+  2. Go to the **Updates** tab to update installed plugins to their latest compatible versions.
+
+![8](https://github.com/user-attachments/assets/dbabc8da-e580-4c46-aea3-6f4361d24a34)
+
+
+You will encounter typical documentation / instructions for plugin installation:
+![7](https://github.com/user-attachments/assets/ebad95c8-93ad-41e8-ad68-b622aa73611e)
+
+
+- **Restart Jenkins**:
+  - After installing or updating plugins, restart Jenkins to ensure the changes are applied properly.
+  - Use the safe restart option under **Manage Jenkins** to avoid interrupting active jobs.
 
 ---
 
