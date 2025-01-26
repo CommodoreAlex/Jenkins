@@ -216,6 +216,11 @@ https://dev.to/jeansen/set-up-jenkins-with-https-250k
 You will encounter typical documentation / instructions for plugin installation:
 ![7](https://github.com/user-attachments/assets/ebad95c8-93ad-41e8-ad68-b622aa73611e)
 
+To make things simple you can also just install the plugin directly from the web application interface. This is preferred to other methods early in the stand-up of your Jenkins server. Alternative ways would be to use the jenkins-plugin-cli once you SSH into the server (which is a plugin, requires keys, and other setup requirements) to get there. Moving on- click the (not so obvious checkbox that doesn't stand out):
+![9](https://github.com/user-attachments/assets/91feee29-2cce-4f4a-bf2b-ad6e3fde9703)
+
+Documentation for this particular plugin:
+https://plugins.jenkins.io/role-strategy/
 
 - **Restart Jenkins**:
   - After installing or updating plugins, restart Jenkins to ensure the changes are applied properly.
