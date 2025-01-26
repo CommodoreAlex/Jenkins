@@ -1,6 +1,6 @@
 # Jenkins for System Administrators 📘
 
-Welcome to the **Jenkins for System Administrators** repository! This repository provides comprehensive resources and guidance to help system administrators effectively manage Jenkins, a powerful tool for continuous integration (CI) and continuous delivery (CD).
+This repository provides comprehensive resources and guidance to help system administrators effectively manage Jenkins, a powerful tool for continuous integration (CI) and continuous delivery (CD).
 
 ---
 
