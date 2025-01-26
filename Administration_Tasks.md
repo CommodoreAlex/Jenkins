@@ -111,6 +111,38 @@ Backup the following directories:
 Jenkins Home: `/var/lib/jenkins` (default location).
 Configuration files: `/etc/default/jenkins` (Debian-based systems).
 
+Take note of all the security relevant objects (sensitive) that are in this directory:
+![11](https://github.com/user-attachments/assets/033610f0-5f1e-48a8-b1aa-891db71a7895)
+
+You should apply the following security configurations.
+
+Set Ownership and Permissions: 
+```bash 
+chown -R jenkins:jenkins /var/lib/jenkins chmod -R 700 /var/lib/jenkins
+```
+
+Sensitive Files (`secrets`, `identity.key.enc`, `secret.key`, `secret.key.not-so-secret`):
+```bash
+chmod 600 /var/lib/jenkins/secrets/* chmod 600 /var/lib/jenkins/identity.key.enc chmod 600 /var/lib/jenkins/secret.key chmod 600 /var/lib/jenkins/secret.key.not-so-secret
+```
+
+Job Data (`/var/lib/jenkins/jobs`):
+```bash
+chmod -R 700 /var/lib/jenkins/jobs
+```
+
+Logs (`/var/lib/jenkins/logs`):
+```bash
+chmod -R 700 /var/lib/jenkins/logs
+```
+`
+Workspace (`/var/lib/jenkins/workspace`):
+```bash
+chmod -R 700 /var/lib/jenkins/workspace
+```
+
+Returnign to the matter at hand- backing up important files:
+
 Use `tar` for backups:
 ```bash
 sudo tar -czvf jenkins-backup.tar.gz /var/lib/jenkins
