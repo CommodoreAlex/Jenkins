@@ -1,6 +1,6 @@
 # Getting Started with Jenkins 🚀
 
-Welcome to the **Jenkins for System Administrators** repository! This guide is designed to help system administrators understand Jenkins, set it up, and manage it effectively.  
+This guide is designed to help system administrators understand Jenkins, set it up, and manage it effectively.  
 
 ---
 
