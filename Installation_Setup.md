@@ -222,6 +222,8 @@ To make things simple you can also just install the plugin directly from the web
 Documentation for this particular plugin:
 https://plugins.jenkins.io/role-strategy/
 
+That is your first successfull plugin installation. Simple but a big step towards being a Jenkins user, and one that can integrate into teams for internal and more advanced future training opportunities. 
+
 - **Restart Jenkins**:
   - After installing or updating plugins, restart Jenkins to ensure the changes are applied properly.
   - Use the safe restart option under **Manage Jenkins** to avoid interrupting active jobs.
