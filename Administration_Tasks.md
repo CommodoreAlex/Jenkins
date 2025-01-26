@@ -118,7 +118,8 @@ You should apply the following security configurations.
 
 Set Ownership and Permissions: 
 ```bash 
-chown -R jenkins:jenkins /var/lib/jenkins chmod -R 700 /var/lib/jenkins
+chown -R jenkins:jenkins /var/lib/jenkins
+chmod -R 700 /var/lib/jenkins
 ```
 
 Sensitive Files (`secrets`, `identity.key.enc`, `secret.key`, `secret.key.not-so-secret`):
@@ -141,7 +142,7 @@ Workspace (`/var/lib/jenkins/workspace`):
 chmod -R 700 /var/lib/jenkins/workspace
 ```
 
-Returnign to the matter at hand- backing up important files:
+Returning to the matter at hand- backing up important files:
 
 Use `tar` for backups:
 ```bash
@@ -169,6 +170,10 @@ sudo systemctl start jenkins
 
 Use the **ThinBackup** plugin for scheduled backups.
 
+See documentation for ThinBackup plugin: https://plugins.jenkins.io/thinBackup/
+
+Tutorial: https://www.youtube.com/watch?v=ZlfqLU3nUkE
+
 ---
 
 ## Monitoring Jenkins 📊
@@ -185,8 +190,13 @@ tail -f /var/log/jenkins/jenkins.log
    - Use tools like `top` or `htop` to monitor CPU and memory usage.
    - Navigate to **Manage Jenkins > System Information** for Jenkins-specific metrics.
 
+![12](https://github.com/user-attachments/assets/68cc13b0-6050-4a53-90ec-b649487bc6fa)
+
+
 3. **Set Up Alerts**:
    - Configure the **Monitoring** plugin to receive notifications about resource usage or failures.
+
+See documentation for Monitoring plugin: https://plugins.jenkins.io/monitoring/
 
 ---
 
