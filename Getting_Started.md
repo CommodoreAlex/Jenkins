@@ -1,9 +1,3 @@
-# Getting Started with Jenkins 🚀
-
-This guide is designed to help system administrators understand Jenkins, set it up, and manage it effectively.  
-
----
-
 ## What is Jenkins? 
 
 Jenkins is an open-source automation server that simplifies the process of building, testing, and deploying applications. It’s a cornerstone of modern DevOps practices, enabling teams to:  
