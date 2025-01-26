@@ -6,7 +6,6 @@ Welcome to the **Jenkins for System Administrators** repository! This repository
 
 ## Table of Contents 📚
 
-- [Introduction](Introduction.md)
 - [Getting Started](Getting_Started.md)
 - [Installation & Setup](Installation_Setup.md)
 - [Jenkins Basics](Jenkins_Basics.md)
@@ -23,9 +22,6 @@ This repository is designed to introduce Jenkins' core functionality, provide be
 ---
 
 ## Section Overviews
-
-### [Introduction](Introduction.md)
-An overview of Jenkins and its importance in modern DevOps workflows. Learn about the role of Jenkins in CI/CD pipelines and its key features.
 
 ### [Getting Started](Getting_Started.md)
 A foundational guide to understanding Jenkins, its use cases, and how it integrates with development processes.
