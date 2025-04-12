@@ -1,12 +1,12 @@
 
 
-# Jenkins Basics Guide 🛠️
+# Jenkins Basics Guide 
 
 Welcome to the Jenkins Basics Guide! This tutorial covers the core functionality of Jenkins and how to create your first job to automate tasks.
 
 ---
 
-## What Are Jenkins Jobs? 🤔
+## What Are Jenkins Jobs?
 
 In Jenkins, a **job** is a task or series of tasks executed by Jenkins. For example:
 - Building software.
@@ -17,7 +17,7 @@ Jenkins jobs are the building blocks of continuous integration and delivery pipe
 
 ---
 
-## Step 1: Accessing the Dashboard 🖥️
+## Step 1: Accessing the Dashboard 
 
 1. Open your web browser and go to:
 
@@ -36,7 +36,7 @@ http://localhost:8080
 
 ---
 
-## Step 2: Creating Your First Job 🎉
+## Step 2: Creating Your First Job
 
 Follow these steps to create a basic Jenkins job:
 
@@ -78,7 +78,7 @@ echo Hello, Jenkins!
 
 ---
 
-## Step 3: Running Your Job 🚀
+## Step 3: Running Your Job
 
 1. Go back to the Jenkins Dashboard.
 2. Locate your job in the list.
@@ -94,22 +94,22 @@ echo Hello, Jenkins!
 
 ---
 
-## Step 4: Understanding Job Outputs 📊
+## Step 4: Understanding Job Outputs
 
 1. **Console Output**:
     
     - After running the job, click **Console Output** for logs.
     - Check for messages like `Hello, Jenkins!` to verify the job ran successfully.
 2. **Status Indicators**:
-    - ✅ Blue (or green): Build succeeded.
-    - ❌ Red: Build failed.
-    - ⚪ Grey: Build didn’t run.
+    - Blue (or green): Build succeeded.
+    - Red: Build failed.
+    - Grey: Build didn’t run.
 
 ![6](https://github.com/user-attachments/assets/eed26bf7-6ae9-467a-96c7-b408bb82ef8e)
 
 ---
 
-## Tips for Effective Jenkins Use 💡
+## Tips for Effective Jenkins Use
 
 1. **Keep Descriptions Clear**:
     
