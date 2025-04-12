@@ -1,22 +1,22 @@
-# Jenkins Troubleshooting Guide 🔧
+# Jenkins Troubleshooting Guide
 
 Encountering issues with Jenkins? This guide will help you identify and resolve common problems to keep your Jenkins instance running smoothly.
 
 ---
 
-## Table of Contents 📚
+## Table of Contents
 
-- [General Troubleshooting Steps](#general-troubleshooting-steps-✅)
-- [Startup Issues](#startup-issues-🚀)
-- [Build Failures](#build-failures-❌)
-- [Plugin Problems](#plugin-problems-🧩)
-- [Performance Issues](#performance-issues-🐢)
-- [Jenkins Logs](#jenkins-logs-📜)
-- [Tips for Proactive Maintenance](#tips-for-proactive-maintenance-💡)
+- [General Troubleshooting Steps](#general-troubleshooting-steps)
+- [Startup Issues](#startup-issues)
+- [Build Failures](#build-failures)
+- [Plugin Problems](#plugin-problems)
+- [Performance Issues](#performance-issues)
+- [Jenkins Logs](#jenkins-logs)
+- [Tips for Proactive Maintenance](#tips-for-proactive-maintenance)
 
 ---
 
-## General Troubleshooting Steps ✅
+## General Troubleshooting Steps
 
 1. **Restart Jenkins**:
 
@@ -31,11 +31,11 @@ sudo systemctl restart jenkins
    - If the Jenkins UI behaves unexpectedly, clearing the browser cache can help.
 
 3. **Check Jenkins Logs**:
-   - Logs provide valuable insights. See the [Jenkins Logs](#jenkins-logs-📜) section for details.
+   - Logs provide valuable insights. See the [Jenkins Logs](#jenkins-logs) section for details.
 
 ---
 
-## Startup Issues 🚀
+## Startup Issues
 
 ### 1. Jenkins Is Not Starting
 
@@ -77,7 +77,7 @@ sudo systemctl restart jenkins
 
 ---
 
-## Build Failures ❌
+## Build Failures
 
 ### 1. Build Stuck in Queue
 
@@ -102,7 +102,7 @@ sudo systemctl restart jenkins
 
 ---
 
-## Plugin Problems 🧩
+## Plugin Problems
 
 ### 1. Plugin Fails to Install
 
@@ -122,7 +122,7 @@ java -jar jenkins-cli.jar -s http://localhost:8080/ install-plugin <plugin-name>
 
 ---
 
-## Performance Issues 🐢
+## Performance Issues
 
 ### 1. Jenkins Is Slow or Unresponsive
 
@@ -154,7 +154,7 @@ Add a monitoring plugin like **Monitoring** or integrate with external tools lik
 
 ---
 
-## Jenkins Logs 📜
+## Jenkins Logs
 
 Logs are essential for troubleshooting. Here's how to access and interpret them:
 
@@ -173,7 +173,7 @@ tail -f /var/log/jenkins/jenkins.log
 
 ---
 
-## Tips for Proactive Maintenance 💡
+## Tips for Proactive Maintenance
 
 - **Regular Updates**:
 	- Keep Jenkins and plugins up-to-date to avoid bugs and vulnerabilities.
