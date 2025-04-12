@@ -1,10 +1,10 @@
-# Installing and Setting Up Jenkins ⚙️
+# Installing and Setting Up Jenkins 
 
 This guide will walk you through installing Jenkins on a Linux system, configuring it, navigating some common Java related or port-occupied setup issues that cause havoc on getting started and getting your first Jenkins instance up and running.
 
 ---
 
-## Prerequisites ✅
+## Prerequisites
 
 Before you start, ensure the following:
 
@@ -26,7 +26,7 @@ sudo apt install openjdk-11-jdk -y
 
 ---
 
-## Step 1: Install Jenkins 📦
+## Step 1: Install Jenkins
 
 ## Debian/Ubuntu[](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)
 
@@ -52,7 +52,7 @@ sudo apt-get install jenkins
 
 ---
 
-## Step 2: Start Jenkins 🚀
+## Step 2: Start Jenkins
 
 1. **Start the Jenkins Service**:
 ```bash
@@ -123,7 +123,7 @@ sudo systemctl status jenkins
 
 ---
 
-## Step 3: Access Jenkins 🖥️
+## Step 3: Access Jenkins 
 
 1. Open a web browser and navigate to:
 ```bash
@@ -156,7 +156,7 @@ Copy and paste this password into the web interface to proceed.
 
 ---
 
-## Step 4: Post-Installation Configuration 🔧
+## Step 4: Post-Installation Configuration
 
 ![6](https://github.com/user-attachments/assets/40df2070-94e6-4c77-b6e8-9d702170616a)
 
