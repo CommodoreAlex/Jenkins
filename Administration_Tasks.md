@@ -1,22 +1,22 @@
-# Jenkins Administration Tasks Guide 🛠️
+# Jenkins Administration Tasks Guide 
 
 This guide covers essential Jenkins administration tasks to help you maintain, secure, and optimize your Jenkins environment.
 
 ---
 
-## Overview 🗂️
+## Overview 
 
 Jenkins administration involves tasks like managing users, scheduling backups, monitoring resources, and keeping your instance secure and up-to-date. Below are the key topics covered:
 
-- [User Management](#user-management-👥)
-- [Backup and Restore](#backup-and-restore-💾)
-- [Monitoring Jenkins](#monitoring-jenkins-📊)
-- [Plugin Management](#plugin-management-🧩)
-- [Securing Jenkins](#securing-jenkins-🔒)
+- [User Management](#user-management)
+- [Backup and Restore](#backup-and-restore)
+- [Monitoring Jenkins](#monitoring-jenkins)
+- [Plugin Management](#plugin-management)
+- [Securing Jenkins](#securing-jenkins)
 
 ---
 
-## User Management 👥
+## User Management 
 
 1. **Create Users**:
    - Navigate to **Manage Jenkins > Manage Users**.
@@ -104,7 +104,7 @@ http://localhost:8080/manage/log/all
 
 ---
 
-## Backup and Restore 💾
+## Backup and Restore
 
 1. **Backup Jenkins**:
 Backup the following directories:
@@ -176,7 +176,7 @@ Tutorial: https://www.youtube.com/watch?v=ZlfqLU3nUkE
 
 ---
 
-## Monitoring Jenkins 📊
+## Monitoring Jenkins
 
 1. **Check Jenkins Logs**:
    - Default log location: `/var/log/jenkins/jenkins.log`.
@@ -200,7 +200,7 @@ See documentation for Monitoring plugin: https://plugins.jenkins.io/monitoring/
 
 ---
 
-## Plugin Management 🧩
+## Plugin Management
 
 1. **Install Plugins**:
    - Go to **Manage Jenkins > Plugin Manager**.
@@ -221,7 +221,7 @@ See documentation for Monitoring plugin: https://plugins.jenkins.io/monitoring/
 
 ---
 
-## Tips for Effective Administration 💡
+## Tips for Effective Administration
 
 - **Regular Maintenance**:
   - Schedule downtime for updates and backups.
