@@ -1,23 +1,23 @@
-# Jenkins Security Guide 🔒
+# Jenkins Security Guide
 
 Securing Jenkins is essential for protecting your CI/CD pipeline and ensuring the integrity of your builds. This guide provides actionable steps to harden your Jenkins instance against potential threats.
 
 ---
 
-## Table of Contents 📚
+## Table of Contents
 
-- [Why Security Matters](#why-security-matters-🔑)
-- [Basic Security Checklist](#basic-security-checklist-🛡️)
-- [Access Control](#access-control-👥)
-- [Securing Data](#securing-data-🔐)
-- [Best Practices for Plugins](#best-practices-for-plugins-🧩)
-- [Monitoring and Auditing](#monitoring-and-auditing-📊)
-- [Staying Up-to-Date](#staying-up-to-date-🚀)
-- [Additional Resources](#additional-resources-📖)
+- [Why Security Matters](#why-security-matters)
+- [Basic Security Checklist](#basic-security-checklist)
+- [Access Control](#access-control)
+- [Securing Data](#securing-data)
+- [Best Practices for Plugins](#best-practices-for-plugins)
+- [Monitoring and Auditing](#monitoring-and-auditing)
+- [Staying Up-to-Date](#staying-up-to-date)
+- [Additional Resources](#additional-resources)
 
 ---
 
-## Why Security Matters 🔑
+## Why Security Matters
 
 Jenkins is often the backbone of your software delivery process. If compromised, attackers could:
 
@@ -29,7 +29,7 @@ Following these best practices helps safeguard your pipeline and maintain system
 
 ---
 
-## Basic Security Checklist 🛡️
+## Basic Security Checklist
 
 1. **Enable Security Features**:
    - Navigate to **Manage Jenkins > Security**.
@@ -49,7 +49,7 @@ Following these best practices helps safeguard your pipeline and maintain system
 
 ---
 
-## Access Control 👥
+## Access Control
 
 1. **Enable Role-Based Access Control (RBAC)**:
    - Install the **Role-Based Authorization Strategy** plugin.
@@ -67,7 +67,7 @@ Following these best practices helps safeguard your pipeline and maintain system
 
 ---
 
-## Securing Data 🔐
+## Securing Data
 
 1. **Enable HTTPS**:
 
@@ -94,7 +94,7 @@ sudo chmod -R 600 /var/lib/jenkins
 
 ---
 
-## Best Practices for Plugins 🧩
+## Best Practices for Plugins
 
 1. **Install Only Trusted Plugins**:
    - Use plugins from the official Jenkins Plugin Index ([plugins.jenkins.io](https://plugins.jenkins.io/)).
@@ -110,7 +110,7 @@ sudo chmod -R 600 /var/lib/jenkins
 
 ---
 
-## Monitoring and Auditing 📊
+## Monitoring and Auditing
 
 1. **Enable Audit Logging**:
    - Install the **Audit Trail** plugin to track user actions and configuration changes.
@@ -130,7 +130,7 @@ tail -f /var/log/jenkins/jenkins.log
 
 ---
 
-## Staying Up-to-Date 🚀
+## Staying Up-to-Date
 
 1. **Update Jenkins and Plugins**:
    - Regularly check for updates via **Manage Jenkins > Plugin Manager**.
@@ -143,7 +143,7 @@ tail -f /var/log/jenkins/jenkins.log
 
 ---
 
-## Additional Resources 📖
+## Additional Resources
 
 - [Official Jenkins Security Documentation](https://www.jenkins.io/doc/book/security/)
 - [Jenkins Plugin Security Advisories](https://www.jenkins.io/security/advisory/)
