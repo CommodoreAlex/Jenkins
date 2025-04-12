@@ -5,7 +5,7 @@ Jenkins is an open-source automation server that simplifies the process of build
 - Integrate and deliver code changes frequently and reliably.  
 - Maintain high-quality code through continuous integration and delivery (CI/CD).  
 
-### Why Use Jenkins? 🌟
+### Why Use Jenkins?
 
 Jenkins is trusted across industries because it:  
 1. **Streamlines Workflows:** Automates tasks, reducing manual errors.  
@@ -16,7 +16,7 @@ Whether you're automating builds, managing test execution, or deploying applicat
 
 ---
 
-## Jenkins Use Cases 📋
+## Jenkins Use Cases
 
 Here are some common scenarios where Jenkins shines:  
 - **Automated Builds:** Compile, package, and create artifacts with minimal effort.  
@@ -26,7 +26,7 @@ Here are some common scenarios where Jenkins shines:
 
 ---
 
-## Key Concepts 🔑
+## Key Concepts
 
 Understanding these foundational concepts will help you navigate Jenkins confidently:  
 
@@ -38,7 +38,7 @@ Understanding these foundational concepts will help you navigate Jenkins confide
 
 ---
 
-## How Jenkins Fits into DevOps 🛠️
+## How Jenkins Fits into DevOps
 
 Jenkins plays a vital role in DevOps workflows by:  
 1. **Accelerating Development:** Frequent code integration and delivery reduce time-to-market.  
@@ -48,7 +48,7 @@ Jenkins plays a vital role in DevOps workflows by:
 
 ---
 
-## Next Steps 📚
+## Next Steps
 
 Now that you have a solid understanding of Jenkins, here’s what to do next:  
 1. Learn how to [install and set up Jenkins](Installation_Setup.md).  
