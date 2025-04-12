@@ -1,6 +1,6 @@
-# Jenkins for System Administrators 📘
+# Jenkins for System Administrators
 
-## Table of Contents 📚
+## Table of Contents
 
 - [Getting Started](Getting_Started.md)
 - [Installation & Setup](Installation_Setup.md)
@@ -39,7 +39,7 @@ A detailed guide to securing your Jenkins instance, including best practices for
 
 ---
 
-## Repository Goals 🎯
+## Repository Goals
 
 - Simplify Jenkins concepts for system administrators.
 - Provide actionable resources to enhance operational efficiency.
